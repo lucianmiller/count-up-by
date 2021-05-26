@@ -6,6 +6,7 @@ $(document).ready(function() {
     console.log(countBy);
 
     for (let index = countBy; index <= highestNumber; index += countBy) {
+      $("#output").append("<li>" + index + "</li>");
       console.log(index);
     }
     event.preventDefault();
